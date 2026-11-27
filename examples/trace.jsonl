@@ -1,0 +1,9 @@
+{"step_id": "s1", "ts": "2026-11-26T09:00:00Z", "modality": "text", "kind": "fetch", "ref": "logs/fetch.log", "note": "HTTP 200, arXiv PDF is the final version"}
+{"step_id": "s1", "ts": "2026-11-26T09:01:10Z", "modality": "image", "kind": "screenshot", "ref": "shots/arxiv-page.png", "note": "arXiv page showing the final version stamp"}
+{"step_id": "s2", "ts": "2026-11-26T09:02:00Z", "modality": "text", "kind": "extract", "ref": "logs/extract.log", "note": "Abstract and 3 results tables extracted"}
+{"step_id": "s2", "ts": "2026-11-26T09:03:30Z", "modality": "image", "kind": "screenshot", "ref": "shots/results-table.png", "note": "Results table as printed in the paper"}
+{"step_id": "s3", "ts": "2026-11-26T09:05:00Z", "modality": "text", "kind": "draft", "ref": "logs/draft.log", "note": "One-page draft written, 412 words"}
+{"step_id": "s3", "ts": "2026-11-26T09:06:00Z", "modality": "audio", "kind": "voice-note", "ref": "audio/draft-review.m4a", "note": "Spoken review: every number in the draft matches the paper"}
+{"step_id": "s4", "ts": "2026-11-26T09:08:00Z", "modality": "text", "kind": "send", "ref": "logs/send.log", "note": "Sent to the reading-group list, 14 recipients"}
+{"step_id": "s4", "ts": "2026-11-26T09:08:20Z", "modality": "image", "kind": "screenshot", "ref": "shots/sent-mail.png", "note": "Sent folder showing the summary email"}
+{"step_id": "s4", "ts": "2026-11-26T09:08:40Z", "modality": "audio", "kind": "voice-note", "ref": "audio/send-confirm.m4a", "note": "Read the recipient list aloud before sending"}

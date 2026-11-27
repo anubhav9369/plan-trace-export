@@ -1,0 +1,135 @@
+{
+  "evidence": [
+    {
+      "modality": "text",
+      "ref": "logs/fetch.log",
+      "sha256": "c6fac9f30e32ff2ef62f3b0f1e3a4e38f3a1765a85c6aac2eb34743f8b82e9a8",
+      "status": "present",
+      "step_id": "s1"
+    },
+    {
+      "modality": "image",
+      "ref": "shots/arxiv-page.png",
+      "sha256": "155412fe85a0c2ada29621a09e9b7a9bdedf09ce0ecd7ac3e44da103f3564b6d",
+      "status": "present",
+      "step_id": "s1"
+    },
+    {
+      "modality": "text",
+      "ref": "logs/extract.log",
+      "sha256": "0e48c6152d44c4a4fd63b50f704c216698270cbc6ca14f74057276f789eefa4a",
+      "status": "present",
+      "step_id": "s2"
+    },
+    {
+      "modality": "image",
+      "ref": "shots/results-table.png",
+      "sha256": "155412fe85a0c2ada29621a09e9b7a9bdedf09ce0ecd7ac3e44da103f3564b6d",
+      "status": "present",
+      "step_id": "s2"
+    },
+    {
+      "modality": "text",
+      "ref": "logs/draft.log",
+      "sha256": "e94dbb69547712ae86da769a6c9dd9e4a335de12a3a498cd84abebace6bc84f4",
+      "status": "present",
+      "step_id": "s3"
+    },
+    {
+      "modality": "audio",
+      "ref": "audio/draft-review.m4a",
+      "sha256": "90c380b3b4c7bb2ea9a415e0547a6f8898ade608458491fa26d05655c8f7875a",
+      "status": "present",
+      "step_id": "s3"
+    },
+    {
+      "modality": "text",
+      "ref": "logs/send.log",
+      "sha256": "8e6c48173e84a2430180dd037a646d0e0ae60af8f3aa75d5368971140ca81c20",
+      "status": "present",
+      "step_id": "s4"
+    },
+    {
+      "modality": "image",
+      "ref": "shots/sent-mail.png",
+      "sha256": "155412fe85a0c2ada29621a09e9b7a9bdedf09ce0ecd7ac3e44da103f3564b6d",
+      "status": "present",
+      "step_id": "s4"
+    },
+    {
+      "modality": "audio",
+      "ref": "audio/send-confirm.m4a",
+      "sha256": "90c380b3b4c7bb2ea9a415e0547a6f8898ade608458491fa26d05655c8f7875a",
+      "status": "present",
+      "step_id": "s4"
+    }
+  ],
+  "generated_at": "2026-11-27T03:30:42.790598Z",
+  "plan_goal": "Summarise the Rapids streaming decoder paper for the reading group",
+  "plan_id": "summarise-paper",
+  "rules_version": "1.0.0",
+  "steps": {
+    "s1": {
+      "covered": true,
+      "events": 2,
+      "gap": null,
+      "irreversible": false,
+      "modalities": [
+        "image",
+        "text"
+      ],
+      "verified_modalities": [
+        "image",
+        "text"
+      ]
+    },
+    "s2": {
+      "covered": true,
+      "events": 2,
+      "gap": null,
+      "irreversible": false,
+      "modalities": [
+        "image",
+        "text"
+      ],
+      "verified_modalities": [
+        "image",
+        "text"
+      ]
+    },
+    "s3": {
+      "covered": true,
+      "events": 2,
+      "gap": null,
+      "irreversible": false,
+      "modalities": [
+        "audio",
+        "text"
+      ],
+      "verified_modalities": [
+        "audio",
+        "text"
+      ]
+    },
+    "s4": {
+      "covered": true,
+      "events": 3,
+      "gap": null,
+      "irreversible": true,
+      "modalities": [
+        "audio",
+        "image",
+        "text"
+      ],
+      "verified_modalities": [
+        "audio",
+        "image",
+        "text"
+      ]
+    }
+  },
+  "tool": "plan-trace-export",
+  "tool_version": "1.0.0",
+  "trace_sha256": "d25264a68fb45405a0ce16870d8b6de58aa52da795be05887982aa80e5faebec",
+  "verdict": "PROVEN"
+}
